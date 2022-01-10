@@ -1,0 +1,353 @@
+body {
+
+font-family: :Arvo;
+font-size: 18px;
+color:  rgb(30,30,30);
+background-color: #FDEFE0;
+margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+margin-bottom: 30px}
+
+.column h2 {
+  font-family: 'Merienda', cursive; 
+  text-align: center;
+  margin: 0px;
+  
+  }
+.column h3 {
+	font-family: 'Merienda', cursive; 
+	text-align: justify;
+  margin-bottom: 0;
+  
+}
+
+
+.banner {
+	text-align: center;
+	background-image: url(images/skyfall.jpg);
+	background-position: center;
+	background-size:  cover;
+	padding: 100px 0px;
+	color:  black;
+}
+
+.banner h1, h2, h3 {
+   font-family: 'Merienda', cursive;
+}
+
+#Intro {
+  text-align: center;
+}
+
+#introduction {
+  float: left;
+   width: 30%;
+  padding: 0px;
+ height: 350px;
+ border-style: solid;
+ border-width: 6px;
+ border-right: hidden;
+ border-left: hidden;
+}
+
+#bio {
+  float: left;
+   width: 70%;
+  padding: 30px;
+ height: 350px;
+  border-style: solid;
+ border-width: 6px;
+ border-right: hidden;
+ border-bottom: hidden;
+}
+
+
+#bio a {
+  text-align: justify;
+  color: white;
+  background-color: #f9b447;
+  padding: 15px 45px;
+  margin-top: 30px;
+  border-radius: 4px;
+  float: left;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+#photo {
+  padding: 20px;
+  background-origin: border-box;
+ background-size: 50%;
+
+}
+
+#icon {
+  width: 100px;
+  height: 90px;
+}
+#icons {
+  float: right;
+}
+
+
+.banner h1	 {
+font-size:  45px;
+}
+
+.banner p {
+	font-size: 27px;
+}
+
+.btn-yellow {
+	color: white;
+	background-color: #f9b447;
+	padding: 15px 45px;
+	margin-top: 30px;
+	border-radius: 4px;
+}
+
+.btn-yellow:hover {
+opacity: 0.8;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+ height: 850px;
+}
+.column p {
+  text-align: justify;
+  font-size: 20px;
+  margin: 0;
+
+}
+#experience {
+    border-style: solid;
+ border-width: 6px;
+ border-left: hidden;
+}
+
+#formation {
+    border-style: solid;
+ border-width: 6px;
+ border-left: hidden;
+ border-right: hidden;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 75px;
+  padding: 10px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skills h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #f9b447;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+ }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.card-white img {
+width: 200px;
+height:  200px;
+object-fit: cover;
+border-radius: 5px;
+}
+
+.card-white h3{
+  color: #427D6F;
+}
+.card-white {
+	background-color: white;
+	width: 320px;
+  height: 330px;
+	padding: 24px;
+	text-align: center;
+  margin: auto;
+	border-radius: 4px;
+	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-white p {
+  display: none;
+}
+.container {
+	width: 900px;
+	margin: auto;
+	margin-bottom: 24px;
+}
+
+.footer {
+	text-align: center;
+	background-color: #6796a6;
+	padding: 16px;
+	font-family: Oxanium;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+
+.card-white {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ text-align: center;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f9b447;
+  background-size: cover;
+  border-radius: 4px;
+  margin: 24px 34px;
+  object-fit: cover;
+}
+
+
+.text {
+ color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.banner p {font-style: italic;
+}
+
+
+.card-round {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-round h3{
+  color: #427D6F;
+}
+
+.card-round img {
+width: 200px;
+height:  200px;
+object-fit: cover;
+border-radius: 5px;
+}
+
+.card-round p {
+  display: none;
+}
+
+.card-round {
+  display: block;
+}
+
+
+.footer {
+  margin-top: 30px;
+  background-color: #EEEEEC;
+}
+
+.footer p {
+transform: rotate(0deg);
+transition: transform 2s;
+font-size: 20px;
+}
+
+.footer p:hover {
+ transform: rotate(180deg);
+}
+
+#buttonup {
+  
+}
+
+#credit {
+  font-size: 10px;
+  display: none;
+}
+
+
