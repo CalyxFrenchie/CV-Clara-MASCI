@@ -127,7 +127,7 @@ opacity: 0.8;
   float: left;
   width: 50%;
   padding: 30px;
- height: 850px;
+ height: 1030px;
 }
 .column p {
   text-align: justify;
@@ -325,7 +325,7 @@ border-radius: 5px;
   display: block;
 }
 
-
+<-- Footer Section -- >
 .footer {
   margin-top: 30px;
   background-color: #EEEEEC;
