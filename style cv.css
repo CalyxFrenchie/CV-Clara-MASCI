@@ -107,6 +107,8 @@ font-size:  45px;
 	font-size: 27px;
 }
 
+ul. {list-style-type: circle;}
+
 .btn-yellow {
 	color: white;
 	background-color: #f9b447;
