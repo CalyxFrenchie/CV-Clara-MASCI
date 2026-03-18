@@ -107,7 +107,10 @@ font-size:  45px;
 	font-size: 27px;
 }
 
-ul. {list-style-type: circle;}
+.ul {
+	list-style-type: disc;
+	font-size: 27px;
+}
 
 .btn-yellow {
 	color: white;
