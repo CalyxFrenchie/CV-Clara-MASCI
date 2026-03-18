@@ -1,7 +1,7 @@
 body {
 
 font-family: :Arvo;
-font-size: 16px;
+font-size: 18px;
 color:  rgb(30,30,30);
 background-color: #FDEFE0;
 margin: 0px;
@@ -109,11 +109,11 @@ font-size:  45px;
 
 .ul {
 	list-style-type: disc;
-	font-size: 27px;
+	font-size: 18px;
 }
 
 .li {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .btn-yellow {
