@@ -48,7 +48,7 @@ margin-bottom: 30px}
 
 #introduction {
   float: left;
-   width: 100%;
+   width: 30%;
   padding: 0px;
  height: 350px;
  border-style: solid;
@@ -59,7 +59,7 @@ margin-bottom: 30px}
 
 #bio {
   float: left;
-   width: 80%;
+   width: 70%;
   padding: 30px;
  height: 350px;
   border-style: solid;
